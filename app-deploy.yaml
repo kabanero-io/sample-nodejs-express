@@ -6,15 +6,15 @@ metadata:
     authoritative-source-url: registry.access.redhat.com
     build-date: 2019-10-29T20:35:20.404230
     commit.image.appsody.dev/author: Daniel Cleyrat <dacleyra@us.ibm.com>
-    commit.image.appsody.dev/committer: GitHub <noreply@github.com>
-    commit.image.appsody.dev/date: Thu Nov 14 10:41:03 2019 -0500
-    commit.image.appsody.dev/message: Initial commit
+    commit.image.appsody.dev/committer: Daniel Cleyrat <dacleyra@us.ibm.com>
+    commit.image.appsody.dev/date: Thu Nov 14 10:43:59 2019 -0500
+    commit.image.appsody.dev/message: init
     description: This image contains the Kabanero development stack for the Nodejs
       Express collection
     distribution-scope: public
     help: For more information visit https://github.com/sclorg/s2i-nodejs-container
-    image.opencontainers.org/created: "2019-11-14T10:43:17-05:00"
-    image.opencontainers.org/revision: 017ffbce060573016aba34e8144a8f6b283e81d5-modified
+    image.opencontainers.org/created: "2019-12-03T16:35:46-05:00"
+    image.opencontainers.org/revision: d2a4b8b65079c026ace5046bab4d5e6de9f0f90b-modified
     k8s.io/description: Node.js 10 available as container is a base platform for building
       and running various Node.js 10 applications and frameworks. Node.js is a platform
       built on Chrome's JavaScript runtime for easily building fast, scalable network
@@ -36,8 +36,8 @@ metadata:
     s2i.io/scripts-url: image:///usr/libexec/s2i
     s2i.openshift.io/scripts-url: image:///usr/libexec/s2i
     stack.appsody.dev/configured: kabanero/nodejs-express:0.2
-    stack.appsody.dev/created: 2019-11-08T17:22:00+0000
-    stack.appsody.dev/revision: 5eeb48d7026977e2bfcc71ec80d3783db81bcf4c
+    stack.appsody.dev/created: 2019-12-02T20:42:56+0000
+    stack.appsody.dev/revision: a91ca0fd6288542b08268b4299b55ae81718fbc4
     stack.appsody.dev/tag: kabanero/nodejs-express:0.2.8
     summary: Image for Kabanero Node.js Express development
     url: https://access.redhat.com/containers/#/registry.access.redhat.com/ubi8/nodejs-10/images/1-54
