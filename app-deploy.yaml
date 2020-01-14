@@ -9,7 +9,7 @@ metadata:
       Express collection
     distribution-scope: public
     help: For more information visit https://github.com/sclorg/s2i-nodejs-container
-    image.opencontainers.org/created: "2020-01-13T11:35:50-05:00"
+    image.opencontainers.org/created: "2020-01-14T15:52:22-05:00"
     k8s.io/description: Node.js 10 available as container is a base platform for building
       and running various Node.js 10 applications and frameworks. Node.js is a platform
       built on Chrome's JavaScript runtime for easily building fast, scalable network
@@ -32,7 +32,7 @@ metadata:
     s2i.openshift.io/scripts-url: image:///usr/libexec/s2i
     stack.appsody.dev/authors: Chris Bailey <cnbailey@gmail.com>, Neeraj Laad <neeraj.laad@gmail.com>
     stack.appsody.dev/configured: docker.io/kabanerobeta/nodejs-express:0.2
-    stack.appsody.dev/created: "2020-01-10T22:52:45Z"
+    stack.appsody.dev/created: "2020-01-14T12:49:18Z"
     stack.appsody.dev/description: Express web framework for Node.js
     stack.appsody.dev/licenses: Apache-2.0
     stack.appsody.dev/tag: docker.io/kabanerobeta/nodejs-express:0.2.8
