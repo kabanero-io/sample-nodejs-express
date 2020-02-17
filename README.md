@@ -1,1 +1,1 @@
-appsody/stacks nodejs-express stack release java-spring-boot2-v0.3.23
+abanero-io/collections nodejs-express stack release 0.6.0-rc.1
