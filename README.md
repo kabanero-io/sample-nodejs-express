@@ -1,1 +1,1 @@
-kabanero-io/collections nodejs-express stack release 0.6.2
+kabanero-io/kabanero-stack-hub nodejs-express release 0.7.0
