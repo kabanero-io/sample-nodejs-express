@@ -4,60 +4,66 @@ metadata:
   annotations:
     architecture: x86_64
     authoritative-source-url: registry.access.redhat.com
-    build-date: 2020-01-30T08:16:17.662981
-    commit.stack.appsody.dev/author: kilnerm <38245247+kilnerm@users.noreply.github.com>
-    commit.stack.appsody.dev/committer: GitHub <noreply@github.com>
+    build-date: 2020-04-09T10:02:05.547594
+    commit.image.appsody.dev/date: Mon Apr 20 09:31:24 2020 -0400
+    commit.image.appsody.dev/message: 0.8.0
     commit.stack.appsody.dev/contextDir: /incubator/nodejs-express
-    commit.stack.appsody.dev/date: Fri Apr 3 09:22:57 2020 +0100
-    commit.stack.appsody.dev/message: 'Merge pull request #316 from groeges/release-0.6'
+    commit.stack.appsody.dev/date: Fri May 1 15:13:54 2020 +0100
+    commit.stack.appsody.dev/message: 'Merge pull request #331 from uberskigeek/329_fix_missing_continuation'
     description: This image contains the Kabanero development stack for the Nodejs
       Express collection
     distribution-scope: public
     help: For more information visit https://github.com/sclorg/s2i-nodejs-container
-    image.opencontainers.org/created: "2020-04-20T09:30:52-04:00"
-    k8s.io/description: Node.js 10 available as container is a base platform for building
-      and running various Node.js 10 applications and frameworks. Node.js is a platform
+    image.opencontainers.org/created: "2020-05-15T17:11:58-04:00"
+    image.opencontainers.org/documentation: https://github.com/kabanero-io/sample-nodejs-express
+    image.opencontainers.org/revision: 7e2b99072e2d4c7a78fffe012ddbca463e235178-modified
+    image.opencontainers.org/source: https://github.com/kabanero-io/sample-nodejs-express/tree/HEAD
+      -> origin
+    image.opencontainers.org/url: https://github.com/kabanero-io/sample-nodejs-express
+    k8s.io/description: Node.js 12 available as container is a base platform for building
+      and running various Node.js 12 applications and frameworks. Node.js is a platform
       built on Chrome's JavaScript runtime for easily building fast, scalable network
       applications. Node.js uses an event-driven, non-blocking I/O model that makes
       it lightweight and efficient, perfect for data-intensive real-time applications
       that run across distributed devices.
-    k8s.io/display-name: Node.js 10
+    k8s.io/display-name: Node.js 12
     maintainer: SoftwareCollections.org <sclorg@redhat.com>
     name: kabanero/nodejs-express
     openshift.io/expose-services: 8080:http
-    openshift.io/tags: builder,nodejs,nodejs10
-    redhat.com/build-host: cpt-1008.osbs.prod.upshift.rdu2.redhat.com
-    redhat.com/component: nodejs-10-container
+    openshift.io/tags: builder,nodejs,nodejs12
+    redhat.com/build-host: cpt-1004.osbs.prod.upshift.rdu2.redhat.com
+    redhat.com/component: nodejs-12-container
     redhat.com/deployments-dir: /opt/app-root/src
     redhat.com/dev-mode: DEV_MODE:false
     redhat.com/dev-mode.port: DEBUG_PORT:5858
     redhat.com/license_terms: https://www.redhat.com/en/about/red-hat-end-user-license-agreements#UBI
-    release: "66"
+    release: "36"
     s2i.io/scripts-url: image:///usr/libexec/s2i
     s2i.openshift.io/scripts-url: image:///usr/libexec/s2i
-    stack.appsody.dev/authors: Chris Bailey <cnbailey@gmail.com>, Neeraj Laad <neeraj.laad@gmail.com>
-    stack.appsody.dev/configured: docker.io/kabanerobeta/nodejs-express:0.2
-    stack.appsody.dev/created: "2020-04-03T08:53:09Z"
+    stack.appsody.dev/authors: Sam Roberts <sam-github>
+    stack.appsody.dev/configured: docker.io/kabanerobeta/nodejs-express:0.4
+    stack.appsody.dev/created: "2020-05-01T14:56:29Z"
     stack.appsody.dev/description: Express web framework for Node.js
+    stack.appsody.dev/digest: sha256:95cd77cb2f7eb5b336b430c8bf775367c38ee200c74f73fe73b02c61fff932f9
     stack.appsody.dev/documentation: https://github.com/kabanero-io/collections/tree/master/incubator/nodejs-express/README.md
     stack.appsody.dev/licenses: Apache-2.0
-    stack.appsody.dev/revision: 27a3254c80e6c5367a76e6099c2e18b393d15841
+    stack.appsody.dev/revision: 8c75520a677c818df6c9c546b9402cc1733feaa6
     stack.appsody.dev/source: https://github.com/kabanero-io/collections/tree/master/incubator/nodejs-express/image
-    stack.appsody.dev/tag: docker.io/kabanerobeta/nodejs-express:0.2.10
+    stack.appsody.dev/tag: docker.io/kabanerobeta/nodejs-express:0.4.8
     stack.appsody.dev/title: Node.js Express
     stack.appsody.dev/url: https://github.com/kabanero-io/collections/tree/master/incubator/nodejs-express
     summary: Image for Kabanero Node.js Express development
-    url: https://access.redhat.com/containers/#/registry.access.redhat.com/ubi8/nodejs-10/images/1-66
-    usage: s2i build <SOURCE-REPOSITORY> ubi8/nodejs-10:latest <APP-NAME>
-    vcs-ref: 6bc1753cc6499a5573f9fac87a839bc3fa7798d2
+    url: https://access.redhat.com/containers/#/registry.access.redhat.com/ubi8/nodejs-12/images/1-36
+    usage: s2i build <SOURCE-REPOSITORY> ubi8/nodejs-12:latest <APP-NAME>
+    vcs-ref: 9a85b86edcc6c765692f15311abe259b0f9997b2
     vcs-type: git
     vendor: Kabanero
-    version: 0.2.10
+    version: 0.4.8
   creationTimestamp: null
   labels:
     image.opencontainers.org/title: sample-nodejs-express
     stack.appsody.dev/id: nodejs-express
-    stack.appsody.dev/version: 0.2.10
+    stack.appsody.dev/version: 0.4.8
   name: sample-nodejs-express
 spec:
   applicationImage: dev.local/sample-nodejs-express
